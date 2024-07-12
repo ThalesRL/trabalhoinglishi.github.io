@@ -1,0 +1,516 @@
+.Footer {
+  background: #510606;
+  height: 200px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.FooterTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.FooterTop hr {
+  height: 10px;
+}
+
+
+#botao3 {
+  color: #fff;
+}
+
+
+#botao3:hover {
+  background-color: #7f1616;
+}
+
+
+@media (max-width: 780px) {
+  .Footer {
+    padding: 20px;
+    gap: 40px;
+    font-size: 13px;
+  }
+ 
+  .bandeira {
+    transform: scale(0.7);
+  }  
+}
+
+
+.History {
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  background-image: url(img/istoria.jfif);
+  color: #fff;
+  text-align: center;
+  gap: 20px;
+}
+
+
+.History img {
+  position: absolute;
+  width: 100%;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 0 1000px #02020256 inset;
+  z-index: -100;
+}
+
+
+.HistoryContainer {
+  width: 100vw;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 0 1000px #02020256 inset;
+}
+
+
+.HistoryText {
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 500px;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+
+@media (max-width: 780px) {
+  .HistoryContainer {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+ 
+  .HistoryText {
+    width: 270px;
+  }
+ 
+  .HistoryText p {
+    font-size: 15px;
+  }
+}
+
+.Coin {
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  background-image: url(img/coin.jfif);
+  color: #fff;
+  text-align: center;
+  gap: 20px;
+}
+
+
+.Coin img {
+  position: absolute;
+  width: 100%;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 0 1000px #02020256 inset;
+  z-index: -100;
+}
+
+
+.CoinContainer {
+  width: 100%;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 0 1000px #02020256 inset;
+}
+
+.CoinText {
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 500px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+
+@media (max-width: 780px) {
+  .CoinContainer {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+ 
+  .CoinText {
+    width: 270px;
+  }
+ 
+  .CoinText p {
+    font-size: 15px;
+  }
+}
+
+.Location {
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  background-image: url(img/locatio.jfif);
+  color: #fff;
+  text-align: center;
+  gap: 20px;
+}
+
+
+.Location img {
+  position: absolute;
+  width: 100%;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 0 1000px #02020256 inset;
+  z-index: -100;
+}
+
+
+.LocationContainer {
+  width: 100%;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 0 1000px #02020256 inset;
+}
+
+.LocationText {
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 500px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+
+@media (max-width: 780px) {
+  .LocationContainer {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+ 
+  .LocationText {
+    width: 270px;
+  }
+ 
+  .LocationText p {
+    font-size: 15px;
+  }
+}
+
+.Accents {
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  background-image: url(img/vaca.jfif);
+  color: #fff;
+  text-align: center;
+  gap: 20px;
+}
+
+
+.Accents img {
+  position: absolute;
+  width: 100%;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 0 1000px #02020256 inset;
+  z-index: -100;
+}
+
+
+.AccentsContainer {
+  width: 100%;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 0 1000px #02020256 inset;
+}
+
+.AccentsText {
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 500px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+
+@media (max-width: 780px) {
+  .AccentsContainer {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+ 
+  .AccentsText {
+    width: 270px;
+  }
+ 
+  .AccentsText p {
+    font-size: 15px;
+  }
+}
+
+.English {
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  background-image: url(img/inglish.png);
+  color: #fff;
+  text-align: center;
+  gap: 20px;
+}
+
+
+.English img {
+  position: absolute;
+  width: 100%;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 0 1000px #02020256 inset;
+  z-index: -100;
+}
+
+
+.EnglishContainer {
+  width: 100%;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 0 1000px #02020256 inset;
+}
+
+.EnglishText {
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 500px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+@media (max-width: 780px) {
+  .EnglishContainer {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+ 
+  .EnglishText {
+    width: 270px;
+  }
+ 
+  .EnglishText p {
+    font-size: 15px;
+  }
+}
+
+.Summary {
+  width: 100%;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  background-image: url(img/sumo.png);
+  color: #fff;
+  text-align: center;
+  gap: 20px;
+}
+
+
+.Summary img {
+  position: absolute;
+  width: 100%;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 0 1000px #02020256 inset;
+  z-index: -100;
+}
+
+
+.SummaryContainer {
+  width: 100%;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 0 0 1000px #02020256 inset;
+}
+
+.SummaryText {
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 500px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+@media (max-width: 780px) {
+  .SummaryContainer {
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+ 
+  .SummaryText {
+    width: 270px;
+  }
+ 
+  .SummaryText p {
+    font-size: 15px;
+  }
+}
+
+.Home {
+  width: 100vw;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+  gap: 20px;
+}
+
+
+.Home img {
+  position: absolute;
+  width: 100vw;
+  height: 600px;
+  z-index: -100;
+}
+
+
+.Home p {
+  font-size: 52.5px;
+  color: #000;
+  -webkit-text-stroke: 1px dimgray;
+}
+
+.Home h1 {
+  font-size: 105px;
+  font-weight: 500;
+  font-family: Akshar, sans-serif;
+  text-align: center;
+  line-height: 100px;
+  overflow: hidden;
+  -webkit-text-stroke: 2px gray;
+}
+
+
+@media (max-width: 780px) {
+  .Home {
+    height: 600px;
+  }
+ 
+  .Home p {
+    font-size: 10px;
+  }
+ 
+  .Home h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+background: transparent;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: #ffffffde;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}

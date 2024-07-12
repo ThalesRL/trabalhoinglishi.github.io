@@ -120,7 +120,7 @@
   flex-direction: column;
   background-size: cover;
   background-position: center;
-  background-image: url(img/coin.jfif);
+  background-image: url(coin.jfif);
   color: #fff;
   text-align: center;
   gap: 20px;
@@ -184,7 +184,7 @@
   flex-direction: column;
   background-size: cover;
   background-position: center;
-  background-image: url(img/locatio.jfif);
+  background-image: url(locatio.jfif);
   color: #fff;
   text-align: center;
   gap: 20px;
@@ -248,7 +248,7 @@
   flex-direction: column;
   background-size: cover;
   background-position: center;
-  background-image: url(img/vaca.jfif);
+  background-image: url(vaca.jfif);
   color: #fff;
   text-align: center;
   gap: 20px;
@@ -312,7 +312,7 @@
   flex-direction: column;
   background-size: cover;
   background-position: center;
-  background-image: url(img/inglish.png);
+  background-image: url(inglish.png);
   color: #fff;
   text-align: center;
   gap: 20px;
@@ -375,7 +375,7 @@
   flex-direction: column;
   background-size: cover;
   background-position: center;
-  background-image: url(img/sumo.png);
+  background-image: url(sumo.png);
   color: #fff;
   text-align: center;
   gap: 20px;
